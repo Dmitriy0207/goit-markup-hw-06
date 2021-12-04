@@ -398,9 +398,9 @@
                <p class="modal-title">
                   Оставьте свои данные, мы вам перезвоним
                </p>
-            <div class="modal-field">
-               <form action="#" class="modal-form"></form>
-                  <label for="user name" class="form-input-text">Имя</label>
+            <form action="#" class="modal-form"></form>
+               <label for="user name" class="form-input-text">Имя</label>
+                  <span class="modal-field">
                      <input 
                      type="text"
                      value=""
@@ -412,9 +412,12 @@
                      pattern="[А-Яа-яЁё]"
                      minlength="2"
                      />
-            </div>
-            <div class="modal-field">
-                  <label for="email" class="form-input-text">Телефон</label>
+                     <svg>
+                        <use></use>
+                     </svg>
+                  </span>
+               <label for="email" class="form-input-text">Телефон</label>
+                  <span class="modal-field">
                      <input 
                      type="email" 
                      id="email"
@@ -424,9 +427,12 @@
                      required 
                      pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}"
                      />
-            </div>
-            <div class="modal-field">
-                  <label for="user tel" class="form-input-text">Почта</label>
+                     <svg>
+                        <use></use>
+                     </svg>
+                  </span>
+               <label for="user tel" class="form-input-text">Почта</label>
+                  <span class="modal-field">
                      <input 
                      type="tel"
                      id="user tel"
@@ -436,8 +442,11 @@
                      required
                      pattern=""
                      />
-            </div>
-                  <div class="modal-field">
+                     <svg>
+                        <use></use>
+                     </svg>
+                  </span>
+         <div class="modal-field">
                      <label for="user tel" class="form-input-text">Комментарий</label>
                         <textarea name="" id="" class="modal-form-text"></textarea>
                      </div>
