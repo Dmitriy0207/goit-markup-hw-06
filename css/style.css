@@ -212,14 +212,11 @@ ul {
 .join-footer{
    margin-left: 70px;
 }
-.join-us{
-   font-style: Bold;
+.join-us, .subscribe{
+   font-style: 700;
    font-size: 14px;
-   line-height: 16px;
-   line-height: 100%;
-   align: Left;
-   vertical-align: Top;
-   letter-spacing: 3%;
+   line-height: 1.1;
+   letter-spacing: 0.03em;
    color: var(--background-section);
    text-transform: uppercase;
 }
@@ -259,13 +256,22 @@ ul {
 .footer-icon{
    fill: currentColor;
 }
-.footer-send{
-margin-left: 93px;
-display: flex;
-justify-content: end;
+
+
+
+
+.send-form{
+   margin-left: 93px;
+
+
 }
-.send-form{ 
-   margin-top: 20px;
+.form{ 
+   display: flex;
+   margin-right: auto;
+   justify-content: flex-end;
+}
+.subscribe{
+   margin-bottom: 20px;
 }
 .send-input{
    width: 358px;
@@ -288,10 +294,21 @@ justify-content: end;
    color: var(--background-section);
 }
 .footer-button-send{
+   display: flex;
+   justify-content: center;
    align-items: center;
    margin-left: 12px;
-}
+   align-items: center;
+   min-width: 200px;
+   min-height: 50px;
 
+}
+.footer-button-icon{
+   margin-left: 10px;
+}
+.subscribe{
+   font-weight: 700;
+}
 
                                        /*cервисы 1cтр*/
 
