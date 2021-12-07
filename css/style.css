@@ -846,12 +846,12 @@ margin-right: 30px;
 
 }
 .conditions-text{
-font-size: 14px;
-font-style: 500;
-line-height: 1.46;
-letter-spacing: 0.03em;
-color: var(--color-text);
-text-align: center;
+   font-size: 14px;
+   font-style: 500;
+   line-height: 1.46;
+   letter-spacing: 0.03em;
+   color: var(--color-text);
+   text-align: center;
 }
 
 
