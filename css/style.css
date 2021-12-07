@@ -341,13 +341,13 @@ ul {
 }
 .button,
 .button-send,
-.footer-button-send {
+.footer-button-send { 
    background: var(--text-active);
    color: var(--background-section);
    border: transparent;
    font-family: inherit;
    font-weight: 700;
-   font-style: 16px;
+   font-size: 16px;
    line-height: 1.85;
    align-items: center;
    letter-spacing: 0.06em;
@@ -357,7 +357,7 @@ ul {
    border-radius: 4px;
    padding: 10px 32px;
    transition-property: color,box-shadow;
-   transition-timing-function: 250ms;
+   transition-timing-function: 500ms;
    transition-duration: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover,
@@ -710,7 +710,7 @@ margin-right: 30px;
    top: 0;
    transition-property: transform,;
    transition-timing-function: linear;
-   transition-duration: 1000ms;
+   transition-duration: 500ms;
 }
 
 .backdrop.is-hidden .modal{
@@ -800,7 +800,7 @@ margin-right: 30px;
    font-weight: 600;
    outline: none;
    transition-property: color, border-color;
-   transition-duration: 1000ms;
+   transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -812,7 +812,7 @@ margin-right: 30px;
    resize: none;
    padding: 10px;
    transition-property: color, border-color;
-   transition-duration: 1000ms;
+   transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -893,6 +893,5 @@ margin-right: 30px;
 }
 .footer-button-send:hover,
 .footer-button-send:focus{
-   
    box-shadow: 0px 0px 12px 8px rgba(34, 60, 80, 0.24) inset;
 }
