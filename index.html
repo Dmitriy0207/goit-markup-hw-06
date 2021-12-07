@@ -406,7 +406,7 @@
          </div>
       </footer>
                               <!-- Иконка регистрации-->      
-      <div class="" data-modal>
+      <div class="backdrop is-hidden" data-modal>
          <div class="modal">
             <button type="button" class="modal-button-close" data-modal-close>
                <svg class="modal-close-icon" width="18" height="18">
@@ -473,36 +473,41 @@
                <label for="user tel" class="form-input-text">
                   Комментарий
                </label>
-                     <textarea name="coments" id="" class="modal-form-text"></textarea>
+                     <textarea 
+                     name="coments" 
+                     id="" 
+                     class="modal-form-text" 
+                     placeholder="Введите текст"></textarea>
+
          <div class="modal-field">
                <input 
                      type="checkbox" 
                      name="policy" 
-                     class="modal-check"
+                     id="policy"
+                     class="modal-check visually-hidden"
                      checked 
                   />
-               <label for="user tel" class="conditions-text">
+               <label for="policy" class="conditions-text">
                   <span class="border-icon">
-                     <svg class="icon-check" width="11" height="8">
-                        <use href="./img/icons.svg#icon-check"></use>
+                     <svg class="icon-check">
+                        <use href="./img/icons.svg#icon-check" ></use>
                      </svg>
                   </span> Соглашаюсь с рассылкой и принимаю
                   <a href="" class="conditions">Условия договора</a>
                </label>
          </div>
-                     
-                     <!-- <fieldset class="fieldset">
+         <div class="send-button">
+                     <button type="submit" class="button-send">Отправить</button>
+         </div>
+         </div>
+      </div>
+      <script src="./js/modal.js"></script>
+   </body>
+</html>
+<!-- <fieldset class="fieldset">
                         <legend>gender</legend>
                         <label for="male">male</label>
                         <input type="radio" name="gender" value="male"/>
                         <label for="male">female</label>
                         <input type="radio" name="gender" value="female"/>
                      </fieldset>  -->
-         <div class="send-button">
-                     <button type="submit" class="button-send">Отправить</button>
-         </div><!-- <button type="reset">butonnn</button> -->
-         </div>
-      </div>
-      <!-- <script src="./js/modal.js"></script> -->
-   </body>
-</html>
