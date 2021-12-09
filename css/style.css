@@ -760,7 +760,7 @@ margin-right: 30px;
 }
 
 .modal-title{
-   margin-bottom: 15px;
+   margin-bottom: 12px;
    font-size: 20px;
    letter-spacing: 0.03em;
    font-weight: 700;
@@ -768,14 +768,39 @@ margin-right: 30px;
    text-align: center;
 
 }
+.modal-form{
+
+}
 .form-input-text{
    display: block;
+
    line-height: 1.2;
+   font-style: 500;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   letter-spacing: 0.01em;
+   text-align: left;
    color: var(--color-text);
-   font-style: 14px;
-   margin-bottom: 5px;
+
+   margin-bottom: 4px;
+
+
+}
+
+
+
+
+
+
+
+
+.form-input-text:not(:first-child){
    margin-top: 10px;
 }
+
+   
+   
 
 .modal-field{
    margin-bottom: 10px;
@@ -829,9 +854,8 @@ margin-right: 30px;
 .modal-form-input:not(placeholder-shown){
    border-color: green;
 }
-.modal-form-input:hover,
+
 .modal-form-input:focus,
-.modal-form-text:hover,
 .modal-form-text:focus{
    border-color: var(--text-active);
 }
